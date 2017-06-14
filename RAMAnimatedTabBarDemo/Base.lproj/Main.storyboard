@@ -39,7 +39,7 @@
                             <constraint firstAttribute="centerY" secondItem="bEq-Y1-1hM" secondAttribute="centerY" constant="115.5" id="lEu-Sk-bUW"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="drop" id="48w-qs-NxD" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="Item" image="drop" id="48w-qs-NxD" customClass="RAMAnimatedTabBarItem" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                 <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,7 +51,7 @@
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Ca-8s-IzR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="gDF-dm-aEt" customClass="RAMFumeAnimation" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                <customObject id="gDF-dm-aEt" customClass="RAMFumeAnimation" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="duration">
                             <real key="value" value="0.40000000000000002"/>
@@ -59,12 +59,12 @@
                     </userDefinedRuntimeAttributes>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="1349" y="-239"/>
+            <point key="canvasLocation" x="-617" y="-737"/>
         </scene>
         <!--Item1-->
         <scene sceneID="jOc-ZW-rjM">
             <objects>
-                <viewController id="qAH-Tt-8IV" customClass="ViewController" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qAH-Tt-8IV" customClass="ViewController" customModule="AnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="j5O-2v-xiZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Blf-ff-NXu"/>
@@ -90,7 +90,7 @@
                             <constraint firstAttribute="centerY" secondItem="Tw8-NQ-cXa" secondAttribute="centerY" constant="114.5" id="gb7-KX-7hX"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item1" image="icon_pin" id="CtM-DW-b20" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="Item1" image="icon_pin" id="CtM-DW-b20" customClass="RAMAnimatedTabBarItem" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                 <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -102,7 +102,7 @@
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6PP-df-As2" sceneMemberID="firstResponder"/>
-                <customObject id="FpT-0h-wZL" customClass="RAMFlipLeftTransitionItemAnimations" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                <customObject id="FpT-0h-wZL" customClass="RAMFlipLeftTransitionItemAnimations" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
                             <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -113,7 +113,7 @@
                     </userDefinedRuntimeAttributes>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="1349" y="479"/>
+            <point key="canvasLocation" x="382" y="-365"/>
         </scene>
         <!--Item2-->
         <scene sceneID="bcp-Y8-jc5">
@@ -144,7 +144,7 @@
                             <constraint firstAttribute="centerX" secondItem="eEz-bN-kFr" secondAttribute="centerX" id="XhJ-qX-WOM"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item2" image="icon_user" id="tOy-GT-VOI" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="Item2" image="icon_user" id="tOy-GT-VOI" customClass="RAMAnimatedTabBarItem" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                 <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -156,7 +156,7 @@
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="idR-48-juS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="tkQ-uv-Jpl" customClass="RAMLeftRotationAnimation" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                <customObject id="tkQ-uv-Jpl" customClass="RAMLeftRotationAnimation" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
                             <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -164,12 +164,12 @@
                     </userDefinedRuntimeAttributes>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="1349" y="1228"/>
+            <point key="canvasLocation" x="382" y="352"/>
         </scene>
         <!--Animated Tab Bar Controller-->
         <scene sceneID="Dv4-Cc-e3A">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7Wi-69-1dd" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7Wi-69-1dd" customClass="RAMAnimatedTabBarController" customModule="AnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Da8-64-P0D">
@@ -187,12 +187,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZE-rn-EED" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="537" y="479"/>
+            <point key="canvasLocation" x="-1268" y="-62"/>
         </scene>
         <!--Item4-->
         <scene sceneID="ELe-Xj-qT3">
             <objects>
-                <viewController id="EJk-y8-NcT" customClass="ViewController" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EJk-y8-NcT" customClass="ViewController" customModule="AnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tuv-hZ-z1H"/>
                         <viewControllerLayoutGuide type="bottom" id="wOs-5j-1gn"/>
@@ -238,7 +238,7 @@
                             <constraint firstAttribute="centerY" secondItem="Cyz-C3-n0y" secondAttribute="centerY" constant="114.5" id="tPb-Ib-rV7"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item4" image="Settings" id="Bg5-ZC-Cug" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="Item4" image="Settings" id="Bg5-ZC-Cug" customClass="RAMAnimatedTabBarItem" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                 <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -250,7 +250,7 @@
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l2r-hf-bau" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="6Xd-bt-Ckc" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                <customObject id="6Xd-bt-Ckc" customClass="RAMBounceAnimation" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
                             <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -261,7 +261,7 @@
                     </userDefinedRuntimeAttributes>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="-237" y="1228"/>
+            <point key="canvasLocation" x="-1268" y="695"/>
         </scene>
         <!--Item3-->
         <scene sceneID="Ar9-mo-BU9">
@@ -292,7 +292,7 @@
                             <constraint firstAttribute="centerY" secondItem="nnG-18-QT9" secondAttribute="centerY" constant="114.5" id="vwD-7g-Lj0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item3" image="Tools_00028" id="h42-dK-A6j" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="Item3" image="Tools_00028" id="h42-dK-A6j" customClass="RAMAnimatedTabBarItem" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                 <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -304,7 +304,7 @@
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kBt-PW-ies" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="UKy-LQ-yyh" customClass="RAMFrameItemAnimation" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                <customObject id="UKy-LQ-yyh" customClass="RAMFrameItemAnimation" customModule="AnimatedTabBarDemo" customModuleProvider="target">
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="imagesPath" value="ToolsAnimation"/>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isDeselectAnimation" value="YES"/>
@@ -314,7 +314,7 @@
                     </userDefinedRuntimeAttributes>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="537" y="1228"/>
+            <point key="canvasLocation" x="262" y="1133"/>
         </scene>
     </scenes>
     <resources>

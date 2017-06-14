@@ -33,7 +33,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.038611925170411787" green="0.98783765762249065" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="bEq-Y1-1hM" secondAttribute="centerX" id="8gx-Gw-MAa"/>
                             <constraint firstAttribute="centerY" secondItem="bEq-Y1-1hM" secondAttribute="centerY" constant="115.5" id="lEu-Sk-bUW"/>
@@ -64,7 +64,7 @@
         <!--Item1-->
         <scene sceneID="jOc-ZW-rjM">
             <objects>
-                <viewController id="qAH-Tt-8IV" customClass="ViewController" customModule="AnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qAH-Tt-8IV" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="j5O-2v-xiZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Blf-ff-NXu"/>
@@ -84,7 +84,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.58493332001065701" blue="0.8076306855043327" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="Tw8-NQ-cXa" secondAttribute="centerX" id="2OZ-mC-Rwl"/>
                             <constraint firstAttribute="centerY" secondItem="Tw8-NQ-cXa" secondAttribute="centerY" constant="114.5" id="gb7-KX-7hX"/>
@@ -138,7 +138,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.8361534485298121" blue="0.65544027632128432" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="eEz-bN-kFr" secondAttribute="centerY" constant="114.5" id="OYa-hO-d7d"/>
                             <constraint firstAttribute="centerX" secondItem="eEz-bN-kFr" secondAttribute="centerX" id="XhJ-qX-WOM"/>
@@ -286,7 +286,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.68639256814851179" green="1" blue="0.7191876474792499" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="nnG-18-QT9" secondAttribute="centerX" id="8CU-A4-XpY"/>
                             <constraint firstAttribute="centerY" secondItem="nnG-18-QT9" secondAttribute="centerY" constant="114.5" id="vwD-7g-Lj0"/>

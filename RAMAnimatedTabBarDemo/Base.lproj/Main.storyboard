@@ -1,26 +1,327 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7Wi-69-1dd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Item-->
+        <scene sceneID="S0i-GD-OFr">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8OK-pw-g2X" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="1f4-Eb-7SF"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZfK-oV-6rA"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="Odo-mU-ahP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FumeAnimation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEq-Y1-1hM">
+                                <rect key="frame" x="13.5" y="182.5" width="348" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="Ohf-qd-mIV"/>
+                                    <constraint firstAttribute="width" constant="348" id="WaR-FC-j4f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="bEq-Y1-1hM" secondAttribute="centerX" id="8gx-Gw-MAa"/>
+                            <constraint firstAttribute="centerY" secondItem="bEq-Y1-1hM" secondAttribute="centerY" constant="115.5" id="lEu-Sk-bUW"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="drop" id="48w-qs-NxD" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="gDF-dm-aEt" id="MZy-aZ-vXh"/>
+                        </connections>
+                    </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ca-8s-IzR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="gDF-dm-aEt" customClass="RAMFumeAnimation" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                            <real key="value" value="0.40000000000000002"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
             </objects>
+            <point key="canvasLocation" x="1349" y="-239"/>
+        </scene>
+        <!--Item1-->
+        <scene sceneID="jOc-ZW-rjM">
+            <objects>
+                <viewController id="qAH-Tt-8IV" customClass="ViewController" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j5O-2v-xiZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Blf-ff-NXu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DMk-l6-lVy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TransitionItemAnimation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tw8-NQ-cXa">
+                                <rect key="frame" x="13.5" y="183.5" width="348" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="feK-pe-DaK"/>
+                                    <constraint firstAttribute="width" constant="348" id="lxG-2X-V5q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Tw8-NQ-cXa" secondAttribute="centerX" id="2OZ-mC-Rwl"/>
+                            <constraint firstAttribute="centerY" secondItem="Tw8-NQ-cXa" secondAttribute="centerY" constant="114.5" id="gb7-KX-7hX"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item1" image="icon_pin" id="CtM-DW-b20" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="FpT-0h-wZL" id="qH7-DF-UOz"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6PP-df-As2" sceneMemberID="firstResponder"/>
+                <customObject id="FpT-0h-wZL" customClass="RAMFlipLeftTransitionItemAnimations" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1349" y="479"/>
+        </scene>
+        <!--Item2-->
+        <scene sceneID="bcp-Y8-jc5">
+            <objects>
+                <viewController id="faW-CW-IoS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kch-Rl-VO3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ydj-V6-Kp3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dzS-aH-6f6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RotationAnimation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEz-bN-kFr">
+                                <rect key="frame" x="13.5" y="183.5" width="348" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="Xc9-ba-xqi"/>
+                                    <constraint firstAttribute="width" constant="348" id="gvx-IJ-drB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="eEz-bN-kFr" secondAttribute="centerY" constant="114.5" id="OYa-hO-d7d"/>
+                            <constraint firstAttribute="centerX" secondItem="eEz-bN-kFr" secondAttribute="centerX" id="XhJ-qX-WOM"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item2" image="icon_user" id="tOy-GT-VOI" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="tkQ-uv-Jpl" id="bqt-ez-vMi"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="idR-48-juS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="tkQ-uv-Jpl" customClass="RAMLeftRotationAnimation" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1349" y="1228"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="Dv4-Cc-e3A">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7Wi-69-1dd" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Da8-64-P0D">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="EJk-y8-NcT" kind="relationship" relationship="viewControllers" id="Le9-tY-i9Z"/>
+                        <segue destination="qAH-Tt-8IV" kind="relationship" relationship="viewControllers" id="hbd-eU-VjB"/>
+                        <segue destination="faW-CW-IoS" kind="relationship" relationship="viewControllers" id="Koy-PJ-NlN"/>
+                        <segue destination="uIO-Rc-Alv" kind="relationship" relationship="viewControllers" id="MuV-SP-fOd"/>
+                        <segue destination="8OK-pw-g2X" kind="relationship" relationship="viewControllers" id="nPq-r7-2vQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uZE-rn-EED" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="537" y="479"/>
+        </scene>
+        <!--Item4-->
+        <scene sceneID="ELe-Xj-qT3">
+            <objects>
+                <viewController id="EJk-y8-NcT" customClass="ViewController" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tuv-hZ-z1H"/>
+                        <viewControllerLayoutGuide type="bottom" id="wOs-5j-1gn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d4G-eG-hie">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bounce Animation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cyz-C3-n0y">
+                                <rect key="frame" x="13.5" y="183.5" width="348" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="4Yb-BH-le3"/>
+                                    <constraint firstAttribute="width" constant="348" id="FI7-oQ-yuD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCG-1o-4b0">
+                                <rect key="frame" x="-4" y="580" width="190.5" height="30"/>
+                                <state key="normal" title="Show Badge"/>
+                                <connections>
+                                    <action selector="showBadgeHandelr:" destination="EJk-y8-NcT" eventType="touchUpInside" id="pwe-BI-hen"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="juW-U3-AIT">
+                                <rect key="frame" x="188.5" y="580" width="190.5" height="30"/>
+                                <state key="normal" title="Hide Badge"/>
+                                <connections>
+                                    <action selector="hideBadgeHandler:" destination="EJk-y8-NcT" eventType="touchUpInside" id="paK-ka-sv2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bCG-1o-4b0" firstAttribute="leading" secondItem="d4G-eG-hie" secondAttribute="leadingMargin" constant="-20" id="6Cf-R5-ltF"/>
+                            <constraint firstItem="wOs-5j-1gn" firstAttribute="top" secondItem="bCG-1o-4b0" secondAttribute="bottom" constant="8" id="7J0-KH-t9k"/>
+                            <constraint firstAttribute="centerX" secondItem="Cyz-C3-n0y" secondAttribute="centerX" id="BGe-S2-7ex"/>
+                            <constraint firstItem="wOs-5j-1gn" firstAttribute="top" secondItem="juW-U3-AIT" secondAttribute="bottom" constant="8" id="E33-md-oMC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="juW-U3-AIT" secondAttribute="trailing" constant="-20" id="WcW-y5-GSN"/>
+                            <constraint firstItem="bCG-1o-4b0" firstAttribute="width" secondItem="juW-U3-AIT" secondAttribute="width" id="mkV-Un-eEw"/>
+                            <constraint firstItem="juW-U3-AIT" firstAttribute="leading" secondItem="bCG-1o-4b0" secondAttribute="trailing" constant="2" id="rLf-HH-u6N"/>
+                            <constraint firstAttribute="centerY" secondItem="Cyz-C3-n0y" secondAttribute="centerY" constant="114.5" id="tPb-Ib-rV7"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item4" image="Settings" id="Bg5-ZC-Cug" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="6Xd-bt-Ckc" id="syy-ZW-yu0"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l2r-hf-bau" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="6Xd-bt-Ckc" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="-237" y="1228"/>
+        </scene>
+        <!--Item3-->
+        <scene sceneID="Ar9-mo-BU9">
+            <objects>
+                <viewController id="uIO-Rc-Alv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1PV-ig-rYf"/>
+                        <viewControllerLayoutGuide type="bottom" id="YXW-NF-f09"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f0U-Vy-pzr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FrameItemAnimation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnG-18-QT9">
+                                <rect key="frame" x="13.5" y="183.5" width="348" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="348" id="TSx-sn-noH"/>
+                                    <constraint firstAttribute="height" constant="71" id="rUS-Jc-xgC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="nnG-18-QT9" secondAttribute="centerX" id="8CU-A4-XpY"/>
+                            <constraint firstAttribute="centerY" secondItem="nnG-18-QT9" secondAttribute="centerY" constant="114.5" id="vwD-7g-Lj0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item3" image="Tools_00028" id="h42-dK-A6j" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="UKy-LQ-yyh" id="0Bm-uO-5OT"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kBt-PW-ies" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="UKy-LQ-yyh" customClass="RAMFrameItemAnimation" customModule="RAMAnimatedTabBarDemo" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="imagesPath" value="ToolsAnimation"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isDeselectAnimation" value="YES"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="0.91764705879999997" green="0.2901960784" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="537" y="1228"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Settings" width="30" height="30"/>
+        <image name="Tools_00028" width="30" height="30"/>
+        <image name="drop" width="24" height="24"/>
+        <image name="icon_pin" width="30" height="30"/>
+        <image name="icon_user" width="30" height="30"/>
+    </resources>
 </document>

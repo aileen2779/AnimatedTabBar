@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E9700E31EF1BD6D0059B0EC"
-               BuildableName = "RAMAnimatedTabBarDemo.app"
-               BlueprintName = "RAMAnimatedTabBarDemo"
-               ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
+               BuildableName = "AnimatedTabBarDemo.app"
+               BlueprintName = "AnimatedTabBarDemo"
+               ReferencedContainer = "container:AnimatedTabBarDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E9700F71EF1BD6D0059B0EC"
-               BuildableName = "RAMAnimatedTabBarDemoTests.xctest"
-               BlueprintName = "RAMAnimatedTabBarDemoTests"
-               ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
+               BuildableName = "AnimatedTabBarDemoTests.xctest"
+               BlueprintName = "AnimatedTabBarDemoTests"
+               ReferencedContainer = "container:AnimatedTabBarDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E9701021EF1BD6D0059B0EC"
-               BuildableName = "RAMAnimatedTabBarDemoUITests.xctest"
-               BlueprintName = "RAMAnimatedTabBarDemoUITests"
-               ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
+               BuildableName = "AnimatedTabBarDemoUITests.xctest"
+               BlueprintName = "AnimatedTabBarDemoUITests"
+               ReferencedContainer = "container:AnimatedTabBarDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E9700E31EF1BD6D0059B0EC"
-            BuildableName = "RAMAnimatedTabBarDemo.app"
-            BlueprintName = "RAMAnimatedTabBarDemo"
-            ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
+            BuildableName = "AnimatedTabBarDemo.app"
+            BlueprintName = "AnimatedTabBarDemo"
+            ReferencedContainer = "container:AnimatedTabBarDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E9700E31EF1BD6D0059B0EC"
-            BuildableName = "RAMAnimatedTabBarDemo.app"
-            BlueprintName = "RAMAnimatedTabBarDemo"
-            ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
+            BuildableName = "AnimatedTabBarDemo.app"
+            BlueprintName = "AnimatedTabBarDemo"
+            ReferencedContainer = "container:AnimatedTabBarDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E9700E31EF1BD6D0059B0EC"
-            BuildableName = "RAMAnimatedTabBarDemo.app"
-            BlueprintName = "RAMAnimatedTabBarDemo"
-            ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
+            BuildableName = "AnimatedTabBarDemo.app"
+            BlueprintName = "AnimatedTabBarDemo"
+            ReferencedContainer = "container:AnimatedTabBarDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
